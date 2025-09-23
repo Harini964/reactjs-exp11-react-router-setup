@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+![WhatsApp Image 2025-09-16 at 14 01 37_8bb1a455](https://github.com/user-attachments/assets/5c3cabd4-b07c-43e6-88fd-7d87c199d5d6)
+![WhatsApp Image 2025-09-16 at 14 02 33_e46940f0](https://github.com/user-attachments/assets/e8646175-26a8-49ed-b9fa-c118e0719a67)
+![WhatsApp Image 2025-09-16 at 14 02 44_8212c189](https://github.com/user-attachments/assets/3e3bb768-3b96-44a0-a3d1-64b3ace0212a)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+ Overview
+This is a simple React application that showcases client-side routing using React Router. The project demonstrates how to set up a basic navigation bar and define routes for multiple pages, allowing users to switch between them without a full page reload.
 
-### `npm start`
+Screenshots
+The following screenshots illustrate the different pages of the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Home Page: The default view of the application, accessed at the root URL http://localhost:3000.
+!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+About Page: The page displayed when the "About" link is clicked, with the URL updated to http://localhost:3000/about.
+!
 
-### `npm test`
+Contact Page: The page displayed when the "Contact" link is clicked, with the URL updated to http://localhost:3000/contact.
+!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Key Technologies
+React: The JavaScript library for building the user interface.
 
-### `npm run build`
+React Router DOM: The library used for handling declarative routing in the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Setup and Installation
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
+git clone [Your-GitHub-Repo-URL]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate to the project directory:
+cd [Your-Project-Name]
 
-### `npm run eject`
+Install the dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the development server:
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application will now be running on http://localhost:3000.
